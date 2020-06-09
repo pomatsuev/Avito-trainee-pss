@@ -22,3 +22,8 @@ textarea,
 select {
   font: inherit;
 }
+
+*:active,
+*:focus {
+  outline: none;
+}

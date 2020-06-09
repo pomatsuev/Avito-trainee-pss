@@ -2,13 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import "./styles/main.scss";
+import { PageRouter } from "./components/PageRouter";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <h1>start</h1>
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<PageRouter />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
